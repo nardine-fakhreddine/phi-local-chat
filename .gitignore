@@ -1,0 +1,30 @@
+# Virtual environment — never commit this
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.idea/
+.vscode/
+.cursor/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Gradio / local runtime
+*.log
+flagged/
+.gradio/
